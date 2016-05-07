@@ -1,5 +1,5 @@
-Compile and run with:
+Compile and test with:
 
 ```
-./gradlew clean build; java -jar build/libs/swarmdemo9-swarm.jar
+./gradlew clean test --debug
 ```
