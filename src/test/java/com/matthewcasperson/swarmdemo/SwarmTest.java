@@ -18,7 +18,6 @@ public class SwarmTest {
     private MyEJB myEjb;
 
     @Deployment
-    //@OverProtocol("Servlet 3.0")
     public static Archive createDeployment() throws Exception {
         return new ArchiveBuilder().buildArchive();
     }

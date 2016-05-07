@@ -18,7 +18,7 @@ public class ArchiveBuilder {
 
         /*
             Merge in the dependencies that the warm build plugin included in the Swarm UberJar
-            into an MyEJB UberJar. This gives us a self contained MyEJB JAR file that Swarm can then
+            into an EJB UberJar. This gives us a self contained EJB JAR file that Swarm can then
             deploy and run.
          */
         final List<JavaArchive> artifacts = ArtifactLookup.get().allArtifacts(new String[]{"org.wildfly.swarm"});
